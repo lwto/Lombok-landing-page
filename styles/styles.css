@@ -436,14 +436,13 @@ footer .links a {
     padding: 4rem 3%;
   }
   .subscribe .container h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    gap: 2rem;
     margin: 4rem auto;
   }
   footer .links {
@@ -454,6 +453,9 @@ footer .links a {
   }
   footer .links a {
     text-align: center;
+  }
+  footer .social {
+    margin-top: 2rem;
   }
   header.active {
     left: 0;

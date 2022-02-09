@@ -366,19 +366,21 @@
                 .container {
                     padding: 4rem 3%;
                     h2 {
-                        font-size: 2rem;
+                        font-size: 1.75rem;
                     }
                 }
             }
             footer {
                 flex-direction: column-reverse;
-                gap: 2rem;
                 margin: 4rem auto;
                 .links {
                     flex-direction: column;
                     a {
                         text-align: center;
                     }
+                }
+                .social {
+                    margin-top: 2rem;
                 }
             }
             header.active {
