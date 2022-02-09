@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Murecho:wght@300;400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +24,7 @@ html {
   margin-top: .5rem;
   letter-spacing: 3px;
   font-size: 1.75rem;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -46,10 +47,13 @@ html {
 
 p {
   font-size: 1.25rem;
+  font-weight: 300;
 }
 
 body {
   position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Murecho', sans-serif;
 }
 
 header {
@@ -116,6 +120,7 @@ header nav a {
   font-size: 5rem;
   letter-spacing: 12px;
   text-align: center;
+  font-weight: 500;
 }
 
 .home .toggle {
@@ -241,7 +246,7 @@ header nav a {
 .subscribe .container h2 {
   letter-spacing: 2px;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
